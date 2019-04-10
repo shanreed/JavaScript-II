@@ -77,6 +77,7 @@ function contains(item, list, cb) {
 }
 
   contains('Notebook', items, function(isItThere) {
+
     console.log(isItThere);
   });
 
@@ -88,3 +89,4 @@ function removeDuplicates(array, cb) {
   // Pass the duplicate free array to the callback function.
   // Do not mutate the original array.
 }
+//I am confused on this one because the array has no duplicates
